@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0210D4DB2DD69F5A006A6FF6 /* TelaConfirmTransacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210D4DA2DD69F5A006A6FF6 /* TelaConfirmTransacao.swift */; };
+		0210D4DD2DD6A2CB006A6FF6 /* TelaAproximarTransacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210D4DC2DD6A2CB006A6FF6 /* TelaAproximarTransacao.swift */; };
+		0210D4DF2DD6A3EC006A6FF6 /* TelaListaTransacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210D4DE2DD6A3EC006A6FF6 /* TelaListaTransacao.swift */; };
+		0210D4E12DD6A68E006A6FF6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210D4E02DD6A68E006A6FF6 /* Model.swift */; };
+		0210D4E32DD6A772006A6FF6 /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210D4E22DD6A772006A6FF6 /* APIView.swift */; };
+		021C4F122DD2C185008B4F5E /* projetowalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4F112DD2C185008B4F5E /* projetowalletApp.swift */; };
+		021C4F142DD2C185008B4F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021C4F132DD2C185008B4F5E /* ContentView.swift */; };
+		021C4F162DD2C187008B4F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021C4F152DD2C187008B4F5E /* Assets.xcassets */; };
+		021C4F192DD2C187008B4F5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021C4F182DD2C187008B4F5E /* Preview Assets.xcassets */; };
+		023745F42DD54E5500CE7950 /* TelaInicialCarteira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023745F32DD54E5500CE7950 /* TelaInicialCarteira.swift */; };
+		025D073C2DD7F5020058B55C /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D073B2DD7F5020058B55C /* teste.swift */; };
+		025D073E2DD7FCC50058B55C /* TelaEnviar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D073D2DD7FCC50058B55C /* TelaEnviar.swift */; };
+		025D07402DD7FF300058B55C /* TelaReceber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D073F2DD7FF300058B55C /* TelaReceber.swift */; };
+		02A37A3D2DD40BA70031A0D4 /* TelaSalvarKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A37A3C2DD40BA70031A0D4 /* TelaSalvarKey.swift */; };
+		02A37A3F2DD413AB0031A0D4 /* TelaConfirmSalvar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A37A3E2DD413AB0031A0D4 /* TelaConfirmSalvar.swift */; };
+		722657932DDD3F0700BAF96F /* WalletsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722657922DDD3F0700BAF96F /* WalletsViewModel.swift */; };
+		722657952DDD432700BAF96F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722657942DDD432700BAF96F /* WalletView.swift */; };
+		722657972DDD4E1300BAF96F /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722657962DDD4E1300BAF96F /* SendView.swift */; };
+		722657992DDD4F0200BAF96F /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722657982DDD4F0200BAF96F /* ReceiveView.swift */; };
+		7226579B2DDE917400BAF96F /* TransferSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226579A2DDE917400BAF96F /* TransferSuccessView.swift */; };
+		7226579F2DDEA70200BAF96F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7226579E2DDEA70200BAF96F /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0210D4DA2DD69F5A006A6FF6 /* TelaConfirmTransacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaConfirmTransacao.swift; sourceTree = "<group>"; };
+		0210D4DC2DD6A2CB006A6FF6 /* TelaAproximarTransacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAproximarTransacao.swift; sourceTree = "<group>"; };
+		0210D4DE2DD6A3EC006A6FF6 /* TelaListaTransacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaListaTransacao.swift; sourceTree = "<group>"; };
+		0210D4E02DD6A68E006A6FF6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0210D4E22DD6A772006A6FF6 /* APIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIView.swift; sourceTree = "<group>"; };
+		021C4F0E2DD2C185008B4F5E /* projetowallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projetowallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		021C4F112DD2C185008B4F5E /* projetowalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projetowalletApp.swift; sourceTree = "<group>"; };
+		021C4F132DD2C185008B4F5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		021C4F152DD2C187008B4F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		021C4F182DD2C187008B4F5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		023745F32DD54E5500CE7950 /* TelaInicialCarteira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialCarteira.swift; sourceTree = "<group>"; };
+		025D073B2DD7F5020058B55C /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
+		025D073D2DD7FCC50058B55C /* TelaEnviar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaEnviar.swift; sourceTree = "<group>"; };
+		025D073F2DD7FF300058B55C /* TelaReceber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaReceber.swift; sourceTree = "<group>"; };
+		02A37A3C2DD40BA70031A0D4 /* TelaSalvarKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaSalvarKey.swift; sourceTree = "<group>"; };
+		02A37A3E2DD413AB0031A0D4 /* TelaConfirmSalvar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaConfirmSalvar.swift; sourceTree = "<group>"; };
+		722657922DDD3F0700BAF96F /* WalletsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewModel.swift; sourceTree = "<group>"; };
+		722657942DDD432700BAF96F /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		722657962DDD4E1300BAF96F /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		722657982DDD4F0200BAF96F /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
+		7226579A2DDE917400BAF96F /* TransferSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSuccessView.swift; sourceTree = "<group>"; };
+		7226579E2DDEA70200BAF96F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021C4F0B2DD2C185008B4F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021C4F052DD2C185008B4F5E = {
+			isa = PBXGroup;
+			children = (
+				021C4F102DD2C185008B4F5E /* projetowallet */,
+				021C4F0F2DD2C185008B4F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		021C4F0F2DD2C185008B4F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				021C4F0E2DD2C185008B4F5E /* projetowallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		021C4F102DD2C185008B4F5E /* projetowallet */ = {
+			isa = PBXGroup;
+			children = (
+				021C4F112DD2C185008B4F5E /* projetowalletApp.swift */,
+				021C4F132DD2C185008B4F5E /* ContentView.swift */,
+				722657942DDD432700BAF96F /* WalletView.swift */,
+				722657982DDD4F0200BAF96F /* ReceiveView.swift */,
+				7226579E2DDEA70200BAF96F /* MainTabView.swift */,
+				722657962DDD4E1300BAF96F /* SendView.swift */,
+				7226579A2DDE917400BAF96F /* TransferSuccessView.swift */,
+				722657922DDD3F0700BAF96F /* WalletsViewModel.swift */,
+				021C4F152DD2C187008B4F5E /* Assets.xcassets */,
+				021C4F172DD2C187008B4F5E /* Preview Content */,
+				02A37A3C2DD40BA70031A0D4 /* TelaSalvarKey.swift */,
+				02A37A3E2DD413AB0031A0D4 /* TelaConfirmSalvar.swift */,
+				023745F32DD54E5500CE7950 /* TelaInicialCarteira.swift */,
+				025D073B2DD7F5020058B55C /* teste.swift */,
+				0210D4E02DD6A68E006A6FF6 /* Model.swift */,
+				0210D4DA2DD69F5A006A6FF6 /* TelaConfirmTransacao.swift */,
+				0210D4DC2DD6A2CB006A6FF6 /* TelaAproximarTransacao.swift */,
+				0210D4DE2DD6A3EC006A6FF6 /* TelaListaTransacao.swift */,
+				0210D4E22DD6A772006A6FF6 /* APIView.swift */,
+				025D073D2DD7FCC50058B55C /* TelaEnviar.swift */,
+				025D073F2DD7FF300058B55C /* TelaReceber.swift */,
+			);
+			path = projetowallet;
+			sourceTree = "<group>";
+		};
+		021C4F172DD2C187008B4F5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				021C4F182DD2C187008B4F5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021C4F0D2DD2C185008B4F5E /* projetowallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021C4F1C2DD2C187008B4F5E /* Build configuration list for PBXNativeTarget "projetowallet" */;
+			buildPhases = (
+				021C4F0A2DD2C185008B4F5E /* Sources */,
+				021C4F0B2DD2C185008B4F5E /* Frameworks */,
+				021C4F0C2DD2C185008B4F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projetowallet;
+			productName = projetowallet;
+			productReference = 021C4F0E2DD2C185008B4F5E /* projetowallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		021C4F062DD2C185008B4F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					021C4F0D2DD2C185008B4F5E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 021C4F092DD2C185008B4F5E /* Build configuration list for PBXProject "projetowallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 021C4F052DD2C185008B4F5E;
+			productRefGroup = 021C4F0F2DD2C185008B4F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				021C4F0D2DD2C185008B4F5E /* projetowallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021C4F0C2DD2C185008B4F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021C4F192DD2C187008B4F5E /* Preview Assets.xcassets in Resources */,
+				021C4F162DD2C187008B4F5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021C4F0A2DD2C185008B4F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025D07402DD7FF300058B55C /* TelaReceber.swift in Sources */,
+				0210D4E12DD6A68E006A6FF6 /* Model.swift in Sources */,
+				021C4F142DD2C185008B4F5E /* ContentView.swift in Sources */,
+				021C4F122DD2C185008B4F5E /* projetowalletApp.swift in Sources */,
+				0210D4DF2DD6A3EC006A6FF6 /* TelaListaTransacao.swift in Sources */,
+				7226579F2DDEA70200BAF96F /* MainTabView.swift in Sources */,
+				02A37A3D2DD40BA70031A0D4 /* TelaSalvarKey.swift in Sources */,
+				0210D4DB2DD69F5A006A6FF6 /* TelaConfirmTransacao.swift in Sources */,
+				7226579B2DDE917400BAF96F /* TransferSuccessView.swift in Sources */,
+				025D073C2DD7F5020058B55C /* teste.swift in Sources */,
+				02A37A3F2DD413AB0031A0D4 /* TelaConfirmSalvar.swift in Sources */,
+				0210D4E32DD6A772006A6FF6 /* APIView.swift in Sources */,
+				023745F42DD54E5500CE7950 /* TelaInicialCarteira.swift in Sources */,
+				722657952DDD432700BAF96F /* WalletView.swift in Sources */,
+				025D073E2DD7FCC50058B55C /* TelaEnviar.swift in Sources */,
+				0210D4DD2DD6A2CB006A6FF6 /* TelaAproximarTransacao.swift in Sources */,
+				722657992DDD4F0200BAF96F /* ReceiveView.swift in Sources */,
+				722657972DDD4E1300BAF96F /* SendView.swift in Sources */,
+				722657932DDD3F0700BAF96F /* WalletsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		021C4F1A2DD2C187008B4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		021C4F1B2DD2C187008B4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		021C4F1D2DD2C187008B4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"projetowallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caua.aguiar.projetowallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		021C4F1E2DD2C187008B4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"projetowallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = caua.aguiar.projetowallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021C4F092DD2C185008B4F5E /* Build configuration list for PBXProject "projetowallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021C4F1A2DD2C187008B4F5E /* Debug */,
+				021C4F1B2DD2C187008B4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		021C4F1C2DD2C187008B4F5E /* Build configuration list for PBXNativeTarget "projetowallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021C4F1D2DD2C187008B4F5E /* Debug */,
+				021C4F1E2DD2C187008B4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 021C4F062DD2C185008B4F5E /* Project object */;
+}
