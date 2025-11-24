@@ -1,5 +1,5 @@
 # 💸 MinhaCripto
-
+Desenvolvido em 2 semanas Apresentamos o MinhaCripto
 Aplicativo mobile desenvolvido com **SwiftUI** para facilitar o uso de criptomoedas, com foco em **simplicidade**, **usabilidade** e **segurança**. A proposta é permitir que qualquer pessoa possa armazenar e transferir **USDT na rede TRON (TRC20)** de forma prática e intuitiva.
 
 ---
@@ -66,3 +66,4 @@ Apesar do crescimento do mercado de criptomoedas, a **maioria dos usuários inic
 1. Clone o repositório:
    ```bash
    git clone <url-do-repositorio>
+
